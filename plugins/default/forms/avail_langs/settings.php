@@ -17,7 +17,7 @@
 						'label' => $item,
 			);
 			$args['value'] = false;
-			if(in_array($key, $settings)){
+			if($settings && in_array($key, $settings)){
 				$args['value'] = true;
 				$args['checked'] = 'checked';	
 			}			
