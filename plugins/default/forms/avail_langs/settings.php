@@ -15,7 +15,6 @@
 			$args = array(
 						'name' => "langs[$key]",
 						'label' => $item,
-						'checked' => $checked,
 			);
 			$args['value'] = false;
 			if(in_array($key, $settings)){
